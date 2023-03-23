@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
 
-    const cvLink = "https://drive.google.com/file/d/1TVFdPzym3AdFX-DHIF7rxsTgKRRUwrRy/view?usp=share_link";
+    const cvLink = "https://drive.google.com/file/d/1eQgxTqaB3aMoq5ThXbAqdoBD0OXijXxf/view?usp=share_link";
 
     const desc = "I'm an enthusiastic developer with a love for creating engaging and user-friendly web interfaces using ReactJs. My skills in HTML, CSS nad JS are strong and I have deep understanding of web development best practices. I am also proficient in NodeJs and Rest APIs. I am excited to bring my expertise to new challenges and projects. In my spare time I watch movies and grind FPS titles. Check out my resume!";
 
