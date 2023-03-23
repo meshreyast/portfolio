@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/meshreyast/portfolio/static/css/main.1ea6e8d6.css",
-    "main.js": "/meshreyast/portfolio/static/js/main.70c49297.js",
-    "static/media/background.webm": "/meshreyast/portfolio/static/media/background.5a54a6f44358c05498b3.webm",
-    "static/media/anime.png": "/meshreyast/portfolio/static/media/anime.1ebfdd3e9bb9533c2ac2.png",
-    "static/media/youtube.png": "/meshreyast/portfolio/static/media/youtube.ea02be0cc8d1e21b13fb.png",
-    "static/media/firewatch.png": "/meshreyast/portfolio/static/media/firewatch.6e1662af431e8ab87513.png",
-    "static/media/task.png": "/meshreyast/portfolio/static/media/task.5911757eb6f3fc83577f.png",
-    "static/media/tours.png": "/meshreyast/portfolio/static/media/tours.319be54407edfc46b1a6.png",
-    "static/media/netflix.png": "/meshreyast/portfolio/static/media/netflix.d7421ce8747b82943835.png",
-    "static/media/menus.png": "/meshreyast/portfolio/static/media/menus.ac24be5a60a1c39d6d1f.png",
-    "static/media/calculator.png": "/meshreyast/portfolio/static/media/calculator.e59d78b1c9aa190b06b0.png",
-    "static/media/contact-img.svg": "/meshreyast/portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
-    "static/media/grocery.png": "/meshreyast/portfolio/static/media/grocery.f7832e877edbe7e85949.png",
-    "static/media/revicons.eot": "/meshreyast/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/meshreyast/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/meshreyast/portfolio/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/meshreyast/portfolio/index.html",
-    "main.1ea6e8d6.css.map": "/meshreyast/portfolio/static/css/main.1ea6e8d6.css.map",
-    "main.70c49297.js.map": "/meshreyast/portfolio/static/js/main.70c49297.js.map"
+    "main.css": "/portfolio/static/css/main.0d25d107.css",
+    "main.js": "/portfolio/static/js/main.e28bee08.js",
+    "static/media/background.webm": "/portfolio/static/media/background.5a54a6f44358c05498b3.webm",
+    "static/media/anime.png": "/portfolio/static/media/anime.1ebfdd3e9bb9533c2ac2.png",
+    "static/media/youtube.png": "/portfolio/static/media/youtube.ea02be0cc8d1e21b13fb.png",
+    "static/media/firewatch.png": "/portfolio/static/media/firewatch.6e1662af431e8ab87513.png",
+    "static/media/task.png": "/portfolio/static/media/task.5911757eb6f3fc83577f.png",
+    "static/media/tours.png": "/portfolio/static/media/tours.319be54407edfc46b1a6.png",
+    "static/media/netflix.png": "/portfolio/static/media/netflix.d7421ce8747b82943835.png",
+    "static/media/menus.png": "/portfolio/static/media/menus.ac24be5a60a1c39d6d1f.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.e59d78b1c9aa190b06b0.png",
+    "static/media/contact-img.svg": "/portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/grocery.png": "/portfolio/static/media/grocery.f7832e877edbe7e85949.png",
+    "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/portfolio/index.html",
+    "main.0d25d107.css.map": "/portfolio/static/css/main.0d25d107.css.map",
+    "main.e28bee08.js.map": "/portfolio/static/js/main.e28bee08.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ea6e8d6.css",
-    "static/js/main.70c49297.js"
+    "static/css/main.0d25d107.css",
+    "static/js/main.e28bee08.js"
   ]
 }
