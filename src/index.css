@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+/* Global styles */
+* {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Lato", "Segoe UI", sans-serif;
+  background-color: #121212;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Navbar component */
+.link {
+  @apply mx-auto md:mx-4 py-2 md:pt-0 text-white opacity-75;
+}
+
+.scrolled {
+  @apply bg-[#121212];
+}
+
+.active {
+  @apply opacity-100;
+}
+
+/* Banner component*/
+.typewrite {
+  @apply text-4xl md:text-6xl 2xl:text-8xl text-red-500 font-bold mx-8 md:ml-auto md:mr-24 text-center select-none;
+}
+
+/* Skills component*/
+.carousel-box {
+  @apply flex flex-col items-center justify-center;
+}
+
+.car-icon {
+  @apply text-8xl mb-4;
+}
+
+.car-text {
+  @apply text-white text-2xl md:text-4xl;
+}
+
+.autoScroll {
+  animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
+
+/* Contact component*/
+.background {
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+}
+
+.form-box {
+  @apply w-full bg-white opacity-80 border-2 border-white border-opacity-50 rounded-2xl text-xs md:text-2xl text-[#121212] font-medium mb-2 py-4 px-6 transition-all duration-300 ease-in-out outline-none focus:opacity-100 focus:text-[#121212] placeholder:text-[16px] placeholder:font-normal md:placeholder:text-2xl focus:placeholder:text-[#121212];
+}
+
+.danger {
+  @apply bg-red-500 text-white;
+}
+
+.success {
+  @apply bg-green-500 text-white;
+}
+
+/* Footer component */
+.container {
+  @apply flex flex-col justify-center items-center relative z-10;
+}
+
+.icon {
+  @apply w-[60px] h-[60px] md:w-[70px] md:h-[70px] lg:w-[80px] lg:h-[80px] block bg-white text-center rounded-[50%] cursor-pointer relative z-20 transition-all duration-300 border-2 border-white;
+}
+
+.inner-icon {
+  @apply text-[29px] md:text-[32px] lg:text-4xl leading-10 inline-flex translate-y-2/4;
+}
+
+.tooltip {
+  @apply bg-white text-xl lg:text-3xl py-2 px-4 rounded-3xl absolute top-[0px] md:top-[0px] opacity-0 pointer-events-none group-hover:top-[-60px] group-hover:md:top-[-70px]  group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-500 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)];
+}
+
+.arrow {
+  @apply absolute w-4 h-4 bg-white -bottom-2 left-[50%] -translate-x-1/2 rotate-45;
+}
+
+.linkedin {
+  @apply group-hover:text-white group-hover:bg-blue-500;
+}
+
+.git {
+  @apply group-hover:text-white group-hover:bg-[#121212];
 }
