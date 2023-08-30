@@ -44,7 +44,7 @@ const Banner = () => {
                         <div className="mt-8 mx-8 md:ml-auto md:mr-24 group">
                             <HashLink to='#contact' className=' flex flex-row justify-center items-center'>
                                 <p className="text-white text-xl md:text-2xl 2xl:text-3xl">
-                                    Let's Connect
+                                    Let's Connect!
                                 </p>
                                 <BsFillArrowRightCircleFill
                                     className='ml-2 cursor-pointer text-white text-xl md:text-2xl  2xl:text-3xl transition-all group-hover:translate-x-4'

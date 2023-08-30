@@ -99,11 +99,16 @@ const Contact = () => {
                                 onChange={(e) => onFormUpdate('message', e.target.value)}
                                 className='form-box h-28 md:h-60'
                             />
-                            <button
-                                className='w-2/5 p-4 mt-3 text-xl md:text-2xl lg:text-4xl font-bold text-[#121212] bg-white rounded-md cursor-pointer text-center'
-                                type="submit">
-                                {buttonText}
-                            </button>
+                            <div className='w-full mt-3 flex items-center'>
+                                <button
+                                    className='w-2/5 p-4 text-xl md:text-2xl lg:text-4xl font-bold text-[#121212] bg-white rounded-md cursor-pointer text-center'
+                                    type="submit">
+                                    {buttonText}
+                                </button>
+                                <p className="text-white text-xl md:text-2xl lg:text-4xl font-bold w-full text-right">
+                                    Or contact me @ 9172931738
+                                </p>
+                            </div>
                         </form>
                     </div>
                 </div>
